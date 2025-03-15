@@ -1,0 +1,187 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "biography": "Biographie",
+    "portfolio": "Portfolio",
+    "projects": "Projets",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Yasmin Avila Picero",
+    "subtitle": "Artiste multidisciplinaire",
+    "description": "Artiste chilienne multidisciplinaire : autrice, actrice et écrivaine basée à Paris",
+    "cta": "Découvrir mon parcours"
+  },
+  "biography": {
+    "title": "Biographie",
+    "subtitle": "Mon parcours artistique",
+    "intro": "Artiste multidisciplinaire chilienne basée à Paris, explorant les frontières entre l'écriture, le théâtre et la performance.",
+    "journey": {
+      "title": "Mon parcours",
+      "present": "Présent",
+      "education1": {
+        "title": "Licence en Arts du Spectacle",
+        "institution": "Université du Chili, Santiago"
+      },
+      "education2": {
+        "title": "Master en Création Littéraire",
+        "institution": "Université Paris 8, France"
+      },
+      "work1": {
+        "title": "Comédienne et autrice",
+        "company": "Compagnie Théâtrale Nomade, Santiago"
+      },
+      "work2": {
+        "title": "Artiste indépendante",
+        "company": "Projets internationaux, Paris"
+      }
+    },
+    "story": {
+      "title": "Mon histoire",
+      "part1": "Née à Santiago du Chili en 1998, j'ai grandi dans un environnement où l'art et la culture étaient omniprésents. Dès mon plus jeune âge, j'ai été attirée par l'écriture et le théâtre, deux formes d'expression qui me permettaient d'explorer le monde et de donner vie à mes idées.",
+      "part2": "Après des études en arts du spectacle à l'Université du Chili, j'ai rejoint une compagnie théâtrale avec laquelle j'ai pu développer mes compétences d'actrice et d'autrice. Cette expérience m'a permis de comprendre l'importance de la collaboration artistique et de la recherche constante de nouvelles formes d'expression.",
+      "part3": "En 2022, j'ai décidé de poursuivre mon parcours à Paris, où j'ai complété un master en création littéraire. Cette expérience m'a ouvert de nouvelles perspectives et m'a permis de développer une approche plus personnelle de mon art, à la croisée de plusieurs disciplines et cultures."
+    },
+    "personalInfo": {
+      "title": "Informations personnelles",
+      "nationality": "Nationalité",
+      "location": "Localisation",
+      "languages": "Langues"
+    },
+    "skills": {
+      "title": "Compétences et intérêts",
+      "artistic": "Compétences artistiques",
+      "other": "Autres compétences",
+      "writing": "Écriture créative et dramaturgique",
+      "acting": "Interprétation théâtrale",
+      "directing": "Mise en scène",
+      "research": "Recherche artistique",
+      "teaching": "Enseignement des arts",
+      "production": "Production culturelle"
+    },
+    "inspirations": "Mes inspirations",
+    "values": "Mes valeurs"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Découvrez mes créations et projets artistiques",
+    "categories": {
+      "writing": "Écriture",
+      "acting": "Théâtre",
+      "other": "Autres projets"
+    },
+    "writing": {
+      "project1": {
+        "title": "La Mémoire des Ombres",
+        "description": "Roman explorant les thèmes de la mémoire collective et de l'exil à travers l'histoire d'une famille chilienne."
+      },
+      "project2": {
+        "title": "Fragments d'Exil",
+        "description": "Recueil de poèmes sur l'expérience de la migration et le sentiment d'appartenance."
+      },
+      "project3": {
+        "title": "Entre Deux Mondes",
+        "description": "Essai sur l'identité culturelle et la création artistique dans un contexte transculturel."
+      }
+    },
+    "acting": {
+      "project1": {
+        "title": "Antigone Revisitée",
+        "description": "Adaptation contemporaine de la tragédie de Sophocle, explorant les thèmes de la résistance et de la justice."
+      },
+      "project2": {
+        "title": "Les Silences de l'Exil",
+        "description": "Performance théâtrale basée sur des témoignages de migrants, créée collectivement."
+      },
+      "project3": {
+        "title": "Frontières Invisibles",
+        "description": "Monologue explorant les frontières intérieures et extérieures qui façonnent nos identités."
+      }
+    },
+    "other": {
+      "project1": {
+        "title": "Voix de l'Entre-Deux",
+        "description": "Série de podcasts présentant des entretiens avec des artistes migrants et leurs créations."
+      },
+      "project2": {
+        "title": "Cartographie des Absences",
+        "description": "Installation artistique explorant la notion de mémoire et d'absence dans un contexte post-dictatorial."
+      },
+      "project3": {
+        "title": "Atelier d'écriture transculturelle",
+        "description": "Animation d'ateliers d'écriture explorant l'identité culturelle et la création littéraire."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Mes projets actuels et passés",
+    "ongoing": "En cours",
+    "completed": "Terminé",
+    "upcoming": "À venir",
+    "dates": "Dates",
+    "location": "Lieu",
+    "collaborators": "Collaborateurs",
+    "present": "Présent",
+    "learnMore": "En savoir plus",
+    "otherProjects": "Autres projets",
+    "voltap": {
+      "title": "Voltap",
+      "description": "Projet de création théâtrale explorant les thèmes de la mémoire collective et de la résistance à travers l'histoire récente du Chili."
+    },
+    "frontieres": {
+      "title": "Frontières",
+      "description": "Performance théâtrale et installation artistique explorant les frontières physiques et mentales qui façonnent nos identités."
+    },
+    "memoires": {
+      "title": "Mémoires",
+      "description": "Projet de recherche et de création autour de la mémoire collective et individuelle, combinant écriture, performance et arts visuels."
+    },
+    "workshops": {
+      "title": "Ateliers d'écriture",
+      "description": "Animation d'ateliers d'écriture créative pour différents publics, explorant l'identité culturelle et la création littéraire."
+    },
+    "performances": {
+      "title": "Performances",
+      "description": "Série de performances artistiques explorant les thèmes de l'identité, de la migration et de la mémoire."
+    },
+    "publications": {
+      "title": "Publications",
+      "description": "Recueil de textes et d'essais publiés dans différentes revues et plateformes culturelles."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Réflexions, actualités et partages",
+    "readMore": "Lire la suite",
+    "loadMore": "Charger plus d'articles",
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher un article...",
+    "categories": "Catégories",
+    "recentPosts": "Articles récents"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "N'hésitez pas à me contacter pour toute question ou proposition de collaboration",
+    "info": {
+      "title": "Informations de contact",
+      "description": "Vous pouvez me contacter par email ou via les réseaux sociaux. Je suis ouverte aux collaborations artistiques, interventions, conférences et projets créatifs.",
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Localisation"
+    },
+    "form": {
+      "title": "Envoyez un message",
+      "description": "Utilisez ce formulaire pour me contacter directement. Je vous répondrai dans les plus brefs délais.",
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "madeWith": "Réalisé avec"
+  }
+}
