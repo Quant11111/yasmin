@@ -99,7 +99,7 @@ export default function Footer({ lang, dictionary }: FooterProps) {
               sx={{ maxWidth: 300 }}
             >
               Artiste multidisciplinaire chilienne basée à Paris, explorant
-              l'art, l'écriture et la performance.
+              l&apos;art, l&apos;écriture et la performance.
             </Typography>
           </Grid>
 

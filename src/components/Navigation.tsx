@@ -53,7 +53,7 @@ function HideOnScroll({ children }: { children: React.ReactElement }) {
 export default function Navigation({ lang, dictionary }: NavigationProps) {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { isDarkMode, toggleTheme } = useTheme();
+  const {} = useTheme();
 
   // Fermer le menu mobile lors du changement de page
   useEffect(() => {

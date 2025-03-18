@@ -11,7 +11,6 @@ import {
   Button,
   Divider,
   Chip,
-  Paper,
   List,
   ListItem,
   ListItemText,
@@ -27,7 +26,7 @@ import { Metadata } from "next";
 
 // Métadonnées de la page
 export async function generateMetadata(props: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   // Attendre params
   const params = await props.params;
@@ -44,7 +43,9 @@ export async function generateMetadata(props: {
   };
 }
 
-export default async function Projects(props: { params: { lang: string } }) {
+export default async function Projects(props: {
+  params: Promise<{ lang: string }>;
+}) {
   // Attendre params
   const params = await props.params;
 

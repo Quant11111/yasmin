@@ -10,7 +10,6 @@ import {
   CardContent,
   CardMedia,
   CardActionArea,
-  Paper,
 } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { getDictionary } from "@/i18n/getDictionary";
@@ -19,7 +18,7 @@ import { Metadata } from "next";
 
 // Métadonnées de la page
 export async function generateMetadata(props: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   // Attendre params
   const params = await props.params;
@@ -31,12 +30,14 @@ export async function generateMetadata(props: {
   const dictionary = await getDictionary(validLang as Locale);
 
   return {
-    title: `Yasmin Avila Picero | ${dictionary.home.subtitle}`,
+    title: "Yasmin Avila Picero | Dramaturge, Réalisatrice, Chercheuse",
     description: dictionary.home.description,
   };
 }
 
-export default async function Home(props: { params: { lang: string } }) {
+export default async function Home(props: {
+  params: Promise<{ lang: string }>;
+}) {
   // Attendre params
   const params = await props.params;
 

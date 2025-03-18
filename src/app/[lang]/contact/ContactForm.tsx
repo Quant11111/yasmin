@@ -59,6 +59,7 @@ export default function ContactForm({ dictionary, lang }: ContactFormProps) {
           ? "Se ha producido un error. Por favor, inténtelo de nuevo más tarde."
           : "An error occurred. Please try again later."
       );
+      console.error(error);
     } finally {
       setIsSubmitting(false);
     }

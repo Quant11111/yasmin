@@ -8,8 +8,6 @@ import {
   CardContent,
   CardMedia,
   CardActionArea,
-  Tabs,
-  Tab,
   Divider,
   Chip,
 } from "@mui/material";
@@ -18,16 +16,17 @@ import { Locale, isValidLocale, defaultLocale } from "@/i18n/config";
 import { Metadata } from "next";
 
 // Métadonnées de la page
-export async function generateMetadata({
-  params,
-}: {
-  params: { lang: string };
+export async function generateMetadata(props: {
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
+  // Attendre params
+  const params = await props.params;
+
   // Vérifier si la langue est valide
-  const lang = isValidLocale(params.lang) ? params.lang : defaultLocale;
+  const validLang = isValidLocale(params.lang) ? params.lang : defaultLocale;
 
   // Charger le dictionnaire pour la langue
-  const dictionary = await getDictionary(lang as Locale);
+  const dictionary = await getDictionary(validLang as Locale);
 
   return {
     title: `${dictionary.portfolio.title} | Yasmin Avila Picero`,
@@ -35,16 +34,17 @@ export async function generateMetadata({
   };
 }
 
-export default async function Portfolio({
-  params,
-}: {
-  params: { lang: string };
+export default async function Portfolio(props: {
+  params: Promise<{ lang: string }>;
 }) {
+  // Attendre params
+  const params = await props.params;
+
   // Vérifier si la langue est valide
-  const lang = isValidLocale(params.lang) ? params.lang : defaultLocale;
+  const validLang = isValidLocale(params.lang) ? params.lang : defaultLocale;
 
   // Charger le dictionnaire pour la langue
-  const dictionary = await getDictionary(lang as Locale);
+  const dictionary = await getDictionary(validLang as Locale);
 
   // Projets d'écriture
   const writingProjects = [

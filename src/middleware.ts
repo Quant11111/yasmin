@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { defaultLocale, locales, isValidLocale } from "./i18n/config";
+import { defaultLocale, locales } from "./i18n/config";
 
 // Middleware pour gérer la redirection vers la langue par défaut
 export function middleware(request: NextRequest) {

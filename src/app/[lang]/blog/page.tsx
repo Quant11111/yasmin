@@ -9,7 +9,6 @@ import {
   CardContent,
   CardMedia,
   CardActionArea,
-  Divider,
   Chip,
   Button,
   TextField,
@@ -23,7 +22,7 @@ import { Metadata } from "next";
 
 // Métadonnées de la page
 export async function generateMetadata(props: {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   // Attendre params
   const params = await props.params;
@@ -40,7 +39,9 @@ export async function generateMetadata(props: {
   };
 }
 
-export default async function Blog(props: { params: { lang: string } }) {
+export default async function Blog(props: {
+  params: Promise<{ lang: string }>;
+}) {
   // Attendre params
   const params = await props.params;
 
